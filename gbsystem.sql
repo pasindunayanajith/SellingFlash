@@ -45,8 +45,8 @@ CREATE TABLE `buyer` (
 --
 
 INSERT INTO `buyer` (`buyerID`, `buyerFname`, `buyerLname`, `buyerGender`, `buyerAddress`, `buyerPhone`, `buyerNic`, `buyerBirthday`, `buyerEmail`, `buyerPassword`) VALUES
-(1, 'pasindu', 'nayanajith', 'female', '34/A ,lake round,kurunegala', '011-65656555', '199827004122', '1998-03-03', 'pasi@gmail.com', 'pasiya'),
-(3, 'Kasal', 'dalshan', 'male', '24/A parakumawatha,kurunegala', '037-2230021', '1911200123', '2021-09-12', 'daloo1@gmail.com', 'das@@s');
+(1, 'pasindu', 'nayanajith', 'Female', '34/A ,lake round,kurunegala', '011-65656555', '199827004122', '1998-03-03', 'pasi@gmail.com', 'pasiya'),
+(3, 'Kasal', 'dalshan', 'Male', '24/A parakumawatha,kurunegala', '037-2230021', '1911200123', '2021-09-12', 'daloo1@gmail.com', 'das@@s');
 
 -- --------------------------------------------------------
 
@@ -125,10 +125,10 @@ CREATE TABLE `product` (
 --
 
 INSERT INTO `product` (`productID`, `productName`, `productItemcode`, `productPrice`, `productStock`, `productDescription`, `researcherID`, `embledCode1`, `embledCode2`, `delivertime`, `availability`, `approval`) VALUES
-(1, 'Online Learing System', 'ww1010', 1250, 'Kurunegala', 'It is the best tool for you to continue your education formally', 1, NULL, NULL, 'Within 2 Weeks', 'YES', 'NO'),
-(2, 'Electronic Robot', 'ee1200', 1170, 'Colombo', 'Is of very high value. Is a more efficient application', 2, '<frame>href=`paypal.com/itmeee1200/thishi/2` display=`visible`</frame>', '<frame>href=`credit.com/itmeee1200/thishi/2` display=`visible`</frame>', 'Within 9 Weeks', 'NO', 'YES'),
+(1, 'Online Learing System', 'ww1010', 1250, 'Kurunegala', 'It is the best tool for you to continue your education formally', 1, NULL, NULL, 'Within 2 Weeks', 'Yes', 'No'),
+(2, 'Electronic Robot', 'ee1200', 1170, 'Colombo', 'Is of very high value. Is a more efficient application', 2, '<frame>href=`paypal.com/itmeee1200/thishi/2` display=`visible`</frame>', '<frame>href=`credit.com/itmeee1200/thishi/2` display=`visible`</frame>', 'Within 9 Weeks', 'No', 'Yes'),
 (3, 'High speed Network Cable', 'ss4009', 3500, 'Colombo', 'We believe this is the best way to share your data faster', 2, '<frame>href=`paypal.com/itmeee1200/pasindu/2` display=`visible`</frame>', '<frame>href=`credit.com/itmeee1200/pasindu/2` display=`visible`</frame>', 'Within 5 Weeks', 'YES', 'YES'),
-(4, 'system ki', 'sk1200', 350000, 'Colombo', 'These are the best solution for you as they are the latest software that will help you to create any kind of regex online\r\n', 2, NULL, NULL, 'Within  2 Weeks', 'NO', 'NO');
+(4, 'system ki', 'sk1200', 350000, 'Colombo', 'These are the best solution for you as they are the latest software that will help you to create any kind of regex online\r\n', 2, NULL, NULL, 'Within  2 Weeks', 'No', 'No');
 
 -- --------------------------------------------------------
 
@@ -157,9 +157,9 @@ CREATE TABLE `researcher` (
 
 INSERT INTO `researcher` (`researcherID`, `researcherFname`, `researcherLname`, `researcherGender`, `researcherNic`, `researcherPhone`, `researcherBirthday`, `researcherEmail`, `researcherPassword`, `researchDetails`, `accountnumber`, `bankname`) VALUES
 (1, 'shani', 'dasanayake', 'Female', '199827002100', '132-7878099', '1996-03-16', 'pasin@gmail.com', 'Shanksd909', 'New Electrical Robat', '351300351311', 'BOC Bank'),
-(3, 'sadun', 'dasanayake', 'male', '19998789095', '102-7878999', '1996-03-12', 'sadun@gmail.com', 'adsfswf', 'IOT using New Thingst', '351771351311', 'selan Bank'),
-(4, 'kamal', 'sadaru', 'male', '199789654789', '789-49989888', '1997-02-12', 'sadru@gmail.com', 'iuhniunh', 'ionb', '9897987897', 'jknkjnkj'),
-(5, 'jkbkjbjk', 'bkjbjkb', 'female', '7898798798700', '987-09090987', '1995-09-21', 'kjbkj333@gmail.com', 'uigiu8', 'uibiubiubuib', '987897897987', 'jhbhjb');
+(3, 'sadun', 'dasanayake', 'Male', '19998789095', '102-7878999', '1996-03-12', 'sadun@gmail.com', 'adsfswf', 'IOT using New Thingst', '351771351311', 'selan Bank'),
+(4, 'kamal', 'sadaru', 'Male', '199789654789', '789-49989888', '1997-02-12', 'sadru@gmail.com', 'iuhniunh', 'ionb', '9897987897', 'jknkjnkj'),
+(5, 'jkbkjbjk', 'bkjbjkb', 'Female', '7898798798700', '987-09090987', '1995-09-21', 'kjbkj333@gmail.com', 'uigiu8', 'uibiubiubuib', '987897897987', 'jhbhjb');
 
 --
 -- Indexes for dumped tables
